@@ -1,0 +1,194 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-caption{
+    background-color: rgba(68, 210, 235, 0.521);
+}
+.WELCOME{
+    background-color: rgb(142, 208, 224);
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.904);
+}
+.dropdown-menu li a{
+    color: rgb(18, 137, 153);
+}
+.s2{
+    background-color: rgb(98, 162, 170);
+}
+.bg2{
+    background-color: rgb(142, 208, 224);
+}
+.p-t{
+    font-size: 18px;
+    color: white;
+}
+.p-t span{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(46, 52, 53);
+}
+
+.section2{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(../pictures/bg-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section3{ 
+    background-image: url(../pictures/bg3.avif);
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.301);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.card0::after{
+    background-color: rgb(0, 0, 0);
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    opacity: 0;
+    transition: 2s;
+}
+.card0:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+}
+
+.card0::before{
+    background-color: rgb(0, 0, 0);
+    content: "";
+    position: absolute;
+    right:0;
+    width: 0;
+    height: 100%;
+    opacity: 0;
+    transition: 2s;
+}
+.card0:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+}
+/* /////////icon overlay in my web/////////////// */
+.nav-icon{
+    width: 50px;
+    margin-top: 150px;
+}
+.f,.w,.i,.t,.l{
+    font-size: 50px;
+    color: rgb(25, 134, 148);
+}
+.i:hover{
+    color: #e63c67;
+}
+.f:hover,.l:hover{
+    color: #6084e7;
+}
+.t:hover{
+    color: black;
+}
+.w:hover{
+    color: #6df780;
+}
+
+/* ///////////////////////////////////////////////// */
+.d-m{
+    opacity: .7;
+}
+.d-m a{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#log0{
+    font-size: 22px;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, #78e1f3, #af4242);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.gradient{
+    font-weight: 700;
+    background-image: linear-gradient(180deg, #2dd3df, #e72e2e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+/* /////////////////////////card section (THANKS FOR)////////////////////////////////////// */
+.cardd{
+    transition:1s ease;
+}
+.cardd:hover{
+    transform: scale(.8);
+    cursor: pointer;
+    
+}
+.card-thanks {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-img-overlay{
+    background-color: rgba(138, 138, 138, 0.692);
+    position: relative;
+}
+.card-img-overlay:hover{
+    background-color: rgba(18, 39, 77, 0.795);
+}
+.bottom-card-thanks{
+    margin-top: 250px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+.footerspan{
+    color: black;
+}
+#f-s{
+    font-size: 20px;
+    font-weight: 700;
+}
+.a-footer{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    font-weight: 700;
+}
+.a-footer:hover{
+    color: #ce1d1d;
+}
+
+/* /////////////////////////////////////////////// */
+.ml-1:hover{
+    background-color: slategrey;
+}
+
+/* ////////////////////////////////////////////////// */
+.card-us{
+    transition: 1s ease;
+}
+.card-us:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.a-social{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
